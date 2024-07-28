@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .appweather .container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    background: url('../../images/clouds.jpg') no-repeat center center/cover;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(33, 40, 68);
+    left:0;
+    z-index: -1;
+  }
+  
+  .appweather .search {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+  }
+  
+  .appweather .header {
+  width: 100%;
+  margin: 1rem auto;
+  text-shadow: 2px 2px #a3ced9;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .appweather .description {
+    position: center;
+    right: -80%;
+  }
+  
+  .appweather .footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgb(46, 157, 182);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px rgb(132, 142, 159);
+  }
+
+  .input-search{
+    height: 30px;
+    padding: 18px;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  
+  
